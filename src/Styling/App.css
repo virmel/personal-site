@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin";
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightpink;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  row-gap: 5%;
+}
+.glitterArea {
+  width: 97vw;
+  height: 97vh;
+}
+.body {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  left: 15vw;
+  top: 5vh;
+  width: 70vw;
+  height: 18vh;
+  background: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 12%;
+  font-weight: 500;
+  font-size: 4.9vh;
+}
+.lightBar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  color: transparent;
+}
+.colorOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 6rem;
+  height: 6rem;
+  background-color: lightsteelblue;
+  transition: color 2s ease-in-out, background-color 2s ease-in-out;
+  font-size: 0;
+}
+.colorOne a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorOne:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorOne:hover {
+  background-color: transparent;
+}
+.colorTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: yellow;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  color: transparent;
+  font-size: 0;
+}
+.colorTwo a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorTwo:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorTwo:hover {
+  background-color: transparent;
+}
+.colorThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: orange;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  color: transparent;
+  font-size: 0;
+}
+.colorThree a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorThree:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorThree:hover {
+  background-color: transparent;
+}
+.colorFour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: lightcoral;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  color: transparent;
+  font-size: 0;
+}
+.colorFour a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorFour:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorFour:hover {
+  background-color: transparent;
+}
+.colorFive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: lightgoldenrodyellow;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  color: transparent;
+  font-size: 0;
+}
+.colorFive a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorFive:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorFive:hover {
+  background-color: transparent;
+}
+.colorSix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: burlywood;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  color: transparent;
+  font-size: 0;
+}
+.colorSix a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorSix:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorSix:hover {
+  background-color: transparent;
+}
+.colorSeven {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: darkviolet;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  color: transparent;
+  font-size: 0;
+}
+.colorSeven a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorSeven:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorSeven:hover {
+  background-color: transparent;
+}
+.colorEight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 6rem;
+  height: 6rem;
+  background-color: navy;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  color: transparent;
+  font-size: 0;
+}
+.colorEight a {
+  text-decoration: none;
+  color: transparent;
+  transition: color 2s ease-in-out;
+}
+.colorEight:hover a {
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+.colorEight:hover {
+  background-color: transparent;
+}
+.pauseButtonContainer {
+  font-size: 3rem;
+  bottom: 10vh;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}

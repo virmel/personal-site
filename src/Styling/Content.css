@@ -1,0 +1,15 @@
+.contentContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  border-radius: 20px;
+  top: 25vh;
+  left: 15vw;
+  width: 70vw;
+  height: 50vh;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  background: rgb(240, 240, 240);
+}
